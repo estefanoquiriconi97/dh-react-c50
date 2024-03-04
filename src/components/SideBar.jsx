@@ -1,4 +1,5 @@
 import React from 'react'
+import logoDh from '../assets/imagenes/logo-DH.png'
 
 export const SideBar = () => {
   return (
@@ -8,13 +9,13 @@ export const SideBar = () => {
         id='accordionSidebar'
       >
         <a
-          class='sidebar-brand d-flex align-items-center justify-content-center'
+          className='sidebar-brand d-flex align-items-center justify-content-center'
           href='/'
         >
-          <div class='sidebar-brand-icon'>
+          <div className='sidebar-brand-icon'>
             <img
-              class='w-100'
-              src='assets/images/logo-DH.png'
+              className='w-100'
+              src={logoDh}
               alt='Digital House'
             />
           </div>
@@ -22,9 +23,9 @@ export const SideBar = () => {
 
         <hr className='sidebar-divider my-0' />
 
-        <li class='nav-item active'>
-          <a class='nav-link' href='/'>
-            <i class='fas fa-fw fa-tachometer-alt'></i>
+        <li className='nav-item active'>
+          <a className='nav-link' href='/'>
+            <i className='fas fa-fw fa-tachometer-alt'></i>
             <span>Dashboard - DH movies</span>
           </a>
         </li>
@@ -35,7 +36,7 @@ export const SideBar = () => {
 
         <li className='nav-item'>
           <a className='nav-link collapsed' href='/'>
-            <i class='fas fa-fw fa-folder'></i>
+            <i className='fas fa-fw fa-folder'></i>
             <span>Pages</span>
           </a>
         </li>
