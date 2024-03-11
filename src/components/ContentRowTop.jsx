@@ -17,7 +17,7 @@ export const ContentRowTop = () => {
           </div>
 
           <div className='col-lg-6 mb-4'>
-           <GenresInDb />
+            <GenresInDb />
           </div>
         </div>
       </div>
