@@ -3,7 +3,7 @@ import mandalorian from '../assets/imagenes/mandalorian.jpg'
 
 export const LastMovieInDb = () => {
   return (
-    <>
+    <div className='col-lg-6 mb-4'>
       <div className='card shadow mb-4'>
         <div className='card-header py-3'>
           <h5 className='m-0 font-weight-bold text-gray-800'>
@@ -32,6 +32,6 @@ export const LastMovieInDb = () => {
           </a>
         </div>
       </div>
-    </>
+    </div>
   )
 }
