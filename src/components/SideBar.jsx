@@ -1,14 +1,8 @@
 import React from 'react'
 import logoDh from '../assets/imagenes/logo-DH.png'
+import { Link } from 'react-router-dom'
 
-import { Routes, Route, Link } from 'react-router-dom'
-import { ContentWrapper } from './ContentWrapper'
-import { GenresInDb } from './GenresInDb'
-import { LastMovieInDb } from './LastMovieInDb'
-import { ContentRowMovies } from './ContentRowMovies'
-import { Error404 } from './Error404'
-
-export const SideBar = () => {
+export const Sidebar = () => {
   return (
     <>
       <ul
@@ -58,14 +52,6 @@ export const SideBar = () => {
         </li>
         <hr className='sidebar-divider d-none d-md-block' />
       </ul>
-
-      <Routes>
-        <Route path='/' element={<ContentWrapper />} />
-        <Route path='/genres' element={<GenresInDb />} />
-        <Route path='/last' element={<LastMovieInDb />} />
-        <Route path='/stats' element={<ContentRowMovies />} />
-        <Route path='*' element={<Error404 />} />
-      </Routes>
     </>
   )
 }
