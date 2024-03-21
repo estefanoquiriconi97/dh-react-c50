@@ -23,7 +23,7 @@ export const Sidebar = () => {
         <li className='nav-item active'>
           <Link className='nav-link' to='/'>
             <i className='fas fa-fw fa-tachometer-alt'></i>
-            <span>Dashboard - DH movies</span>
+            <span>Dashboard</span>
           </Link>
         </li>
 
@@ -33,21 +33,21 @@ export const Sidebar = () => {
 
         <li className='nav-item'>
           <Link className='nav-link collapsed' to='/genres'>
-            <i className='fas fa-fw fa-folder'></i>
-            <span>Genres</span>
+            <i className='fas fa-fw fa-table'></i>
+            <span>Categorías</span>
           </Link>
         </li>
 
         <li className='nav-item'>
           <Link className='nav-link' to='/last'>
-            <i className='fas fa-fw fa-chart-area'></i>
+            <i className="fas fa-film"></i>
             <span>Last Movie</span>
           </Link>
         </li>
         <li className='nav-item'>
           <Link className='nav-link' to='/stats'>
-            <i className='fas fa-fw fa-table'></i>
-            <span>Movie Stats</span>
+            <i className='fas fa-fw fa-chart-area'></i>
+            <span>Stats</span>
           </Link>
         </li>
         <hr className='sidebar-divider d-none d-md-block' />

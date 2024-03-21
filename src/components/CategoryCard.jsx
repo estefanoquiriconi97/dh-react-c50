@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const GenreCard = ({ name }) => {
+export const CategoryCard = ({ name }) => {
   return (
     <div className='col-lg-6 mb-4'>
       <div className='card bg-dark text-white shadow'>

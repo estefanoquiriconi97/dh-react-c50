@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 export const StatWidget = ({ title, quantity, borderColor, icon }) => {
   return (
-    <div className={`card border-left-${borderColor} shadow h-100 py-2`}>
+    <div className={`card border-left-${borderColor} h-100 py-2`}>
       <div className='card-body'>
         <div className='row no-gutters align-items-center'>
           <div className='col mr-2'>
